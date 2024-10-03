@@ -1,0 +1,1466 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Handsome Checkout Pages by BogdanFix\n"
+"POT-Creation-Date: 2020-08-19 13:41+0600\n"
+"PO-Revision-Date: 2017-07-15 19:51+0600\n"
+"Last-Translator: \n"
+"Language-Team: BogdanFix, Inc <support@bogdanfix.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: gb-wc-hcc-admin.php\n"
+"X-Poedit-SearchPath-1: gb-wc-hcc.php\n"
+"X-Poedit-SearchPath-2: .\n"
+
+#: forms/one-step-template.php:161 forms/two-step-template.php:283
+#: templates/gb-wc-hcc-template-2.php:1036
+#: templates/gb-wc-hcc-template-3.php:767
+#: templates/gb-wc-hcc-template-4.php:942
+#: templates/gb-wc-hcc-template-5.php:850
+#: templates/gb-wc-hcc-template-6.php:1330
+#: templates/gb-wc-hcc-template-7.php:223 templates/gb-wc-hcc-template.php:864
+msgid "Oops, there are no products in your cart."
+msgstr ""
+
+#: forms/two-step-template.php:238 gb-wc-hcc-embed-forms.php:1708
+#: gb-wc-hcc.php:3150 gb-wc-hcc.php:7142
+msgid "Step 1: Billing Details"
+msgstr ""
+
+#: forms/two-step-template.php:258 gb-wc-hcc-embed-forms.php:1718
+msgid "Step 2: Shipping & Payment"
+msgstr ""
+
+#: forms/two-step-template.php:300 gb-wc-hcc-embed-forms.php:1728
+#: gb-wc-hcc.php:3180 templates/gb-wc-hcc-template-5.php:868
+#: templates/gb-wc-hcc-template-5.php:881
+#: templates/gb-wc-hcc-template-6.php:1376
+#: templates/gb-wc-hcc-template-6.php:1392
+msgid "Next Step"
+msgstr ""
+
+#: forms/two-step-template.php:307 gb-wc-hcc.php:5010
+#: templates/gb-wc-hcc-template-5.php:886
+#: templates/gb-wc-hcc-template-5.php:888
+#: templates/gb-wc-hcc-template-6.php:1398
+#: templates/gb-wc-hcc-template-6.php:1399
+msgid "< back to the previous step"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:38
+msgid "Your license"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:113
+#, php-format
+msgid "Update to %s is available!"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:116
+msgid "Description:"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:122
+msgid "Go to Plugins menu to update"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:129
+msgid "Get the license key now"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:135
+msgid "You have the latest version"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:155
+msgid "Undefined error. Please, contact plugin support."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:160
+msgid "Undefined server response. Please, contact plugin support."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:165
+msgid ""
+"Server variable SERVER_NAME is not defined. Please, contact your hosting "
+"support."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:207
+msgid "License key"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:214
+msgid "Paste your key here..."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:215
+msgid "Activate"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:222
+msgid "Remove key"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:235 gb-wc-hcc.php:1310
+msgid "Settings"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:244
+msgid "Support email"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:253
+msgid "Support phone"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:262
+msgid "Replace default checkout page with"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:266
+msgid "do not replace"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:276 gb-wc-hcc-embed-forms.php:1745 gb-wc-hcc.php:3549
+msgid "Custom CSS"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:281
+msgid ""
+"Custom CSS from this field will be applied to <u>all</u> the plugin's pages."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:286 gb-wc-hcc-embed-forms.php:1755
+msgid "Custom JS"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:291
+msgid ""
+"Custom JS from this field will be applied to <u>all</u> the plugin's pages. "
+"&#60;script&#62; tags are not required."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:296
+msgid "Alternative URLs"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:299
+msgid "no, leave default \"/handsome-checkout/\""
+msgstr ""
+
+#: gb-wc-hcc-admin.php:302
+msgid "yes, switch to  \"/checkout-handsome/\""
+msgstr ""
+
+#: gb-wc-hcc-admin.php:305
+msgid "yes, switch to  \"/checkout-hs/\""
+msgstr ""
+
+#: gb-wc-hcc-admin.php:308
+msgid "yes, switch to  \"/checkouts/\""
+msgstr ""
+
+#: gb-wc-hcc-admin.php:310
+msgid ""
+"Switches links from \"/handsome-checkout/\" to \"/checkout-handsome/\" or "
+"to shorter versions to bypass the caching restrictions."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:311
+msgid ""
+"<b>Note:</b> You need to reset the rewrite rules manually. Go to the menu > "
+"Settings > Permalinks and hit \"Save Changes\"."
+msgstr ""
+
+#: gb-wc-hcc-admin.php:316
+msgid "Disable Abandoned Carts"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:319 gb-wc-hcc-admin.php:328
+msgid "yes"
+msgstr ""
+
+#: gb-wc-hcc-admin.php:325
+msgid "Enable beta updates"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:226 gb-wc-hcc-embed-forms.php:236
+msgid "First name"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:227 gb-wc-hcc-embed-forms.php:237
+msgid "Last name"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:228 gb-wc-hcc-embed-forms.php:238
+#: gb-wc-hcc-embed-forms.php:1650 gb-wc-hcc.php:3086
+msgid "Company name"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:229
+msgid "Phone"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:230
+msgid "Email address"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:232 gb-wc-hcc-embed-forms.php:240
+msgid "State / County"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:233 gb-wc-hcc-embed-forms.php:241
+msgid "Town / City"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:234 gb-wc-hcc-embed-forms.php:242
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:258
+msgid "Embed Form"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:346
+msgid ""
+"Please, publish this page or save it as a draft to view Handsome Checkout "
+"Form. It will only show up on the front-end, outside the visual editor."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:351
+msgid "No selected products for this form. Please, check the form settings."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:698
+msgid "Your Button Here"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:708 gb-wc-hcc-embed-forms.php:725
+msgid "this link is only visible to admins"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:708 gb-wc-hcc-embed-forms.php:725
+msgid "edit this form"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:821
+msgid "Embed Checkout Forms"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:821
+msgid "Embed Forms"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:835 gb-wc-hcc.php:1324
+#: modules/ac/abandoned_carts.php:40
+msgid "Oops, you can't access this page."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:859
+msgid "Select the type of checkout you want to create below."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:863
+msgid "Select your option..."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:864
+msgid "Checkout Page"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:865
+msgid "Embed Checkout Form (via shortcode)"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1256
+msgid "Your button here"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1263
+msgid "Copy Embed Shortcode"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1275
+msgid "Display as a popup"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1279
+msgid "display embed form as a popup"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1285 gb-wc-hcc.php:2588
+msgid "Select Product"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1293 gb-wc-hcc-embed-forms.php:1342
+#: gb-wc-hcc.php:2597 gb-wc-hcc.php:2694 gb-wc-hcc.php:3711 gb-wc-hcc.php:3753
+msgid "search for a product&hellip;"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1301
+msgid "Form Layout"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1305
+msgid "One Step"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1306
+msgid "Two Steps (billing / shipping & payment)"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1313
+msgid "Field Names Display"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1317
+msgid "placeholders"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1318
+msgid "labels & placeholders"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1325 gb-wc-hcc.php:2677
+msgid "Order Bump"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1329 gb-wc-hcc-embed-forms.php:1381
+#: gb-wc-hcc.php:2681 gb-wc-hcc.php:2733
+msgid "enable"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1335 gb-wc-hcc.php:2687
+msgid "Order Bump Product"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1350 gb-wc-hcc.php:2702
+msgid "Order Bump Checkbox Label"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1353 gb-wc-hcc.php:2705
+msgid "Yes, I will take it!"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1359 gb-wc-hcc.php:2711
+msgid "Order Bump Highlighted Text"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1362 gb-wc-hcc.php:2714
+msgid "ONE TIME OFFER"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1368 gb-wc-hcc.php:2720
+msgid "Order Bump Main Description"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1377 gb-wc-hcc.php:2729
+msgid "Variations & Quantity Options"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1387 gb-wc-hcc.php:2739
+msgid "Options Main Title"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1390 gb-wc-hcc.php:2742 gb-wc-hcc.php:6321
+#: templates/gb-wc-hcc-template-5.php:807
+#: templates/gb-wc-hcc-template-6.php:1273
+msgid "Product Selection"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1396 gb-wc-hcc.php:2754
+msgid "Options Item Title"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1399 gb-wc-hcc.php:2757 gb-wc-hcc.php:6344
+#: gb-wc-hcc.php:6393 gb-wc-hcc.php:6448 gb-wc-hcc.php:6535
+msgid "Item"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1405 gb-wc-hcc.php:2763
+msgid "Options Price Title"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1408 gb-wc-hcc-embed-forms.php:1452
+#: gb-wc-hcc.php:2766 gb-wc-hcc.php:2811 gb-wc-hcc.php:6347 gb-wc-hcc.php:6396
+#: gb-wc-hcc.php:6451 gb-wc-hcc.php:6538
+msgid "Price"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1414 gb-wc-hcc.php:2772
+msgid "Options Highlight Inscription"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1417 gb-wc-hcc.php:2775 gb-wc-hcc.php:6367
+msgid "MOST POPULAR!"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1423 gb-wc-hcc.php:2781
+msgid "Options Mode"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1427 gb-wc-hcc.php:2785
+msgid "Simple quantity"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1428 gb-wc-hcc.php:2786
+msgid "Simple variations"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1429 gb-wc-hcc.php:2787
+msgid "Dropdown quantity and variations"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1436 gb-wc-hcc.php:2795
+msgid "Options Table"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1443
+msgid "Default"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1446 gb-wc-hcc.php:2805 gb-wc-hcc.php:6445
+msgid "Qty"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1449 gb-wc-hcc.php:2808
+msgid "Custom Name"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1456 gb-wc-hcc.php:2815
+msgid "Highlight"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1491 gb-wc-hcc-embed-forms.php:1498
+#: gb-wc-hcc-embed-forms.php:1542 gb-wc-hcc.php:2850 gb-wc-hcc.php:2857
+#: gb-wc-hcc.php:2901
+msgid "optional"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1572 gb-wc-hcc.php:2932
+msgid "+ add option"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1575 gb-wc-hcc.php:2935
+msgid "Options will be taken from variations of the selected product(s)"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1582 gb-wc-hcc.php:3006
+msgid "Template Colors"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1587 gb-wc-hcc.php:3026
+msgid "Background Color"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1593
+msgid "Text Color"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1599
+msgid "Links Color"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1605
+msgid "Buttons Color"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1617 gb-wc-hcc.php:3053
+msgid "Fields"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1622 gb-wc-hcc.php:3058
+msgid "Email field first"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1628 gb-wc-hcc.php:3064
+msgid "Swap billing & shipping"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1637 gb-wc-hcc.php:3073
+msgid "Billing Address"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1640 gb-wc-hcc.php:3076
+msgid "important: should be disabled only for \"virtual\" products"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1644 gb-wc-hcc.php:3080
+msgid "First + Last Name"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1656 gb-wc-hcc.php:3092
+msgid "Phone Number"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1665 gb-wc-hcc.php:3101
+msgid "Shipping Address"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1674 gb-wc-hcc.php:3116
+msgid "Coupon Box"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1685 gb-wc-hcc.php:3127
+msgid "Order Details"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1689 gb-wc-hcc.php:3131
+msgid "display order details table"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1695 gb-wc-hcc.php:3137
+msgid "Hide Order Total"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1699 gb-wc-hcc.php:3141
+msgid "hide order total box (above the \"place order\" button)"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1705 gb-wc-hcc.php:3147
+msgid "Step 1 Title Text"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1715 gb-wc-hcc.php:3162
+msgid "Step 2 Title Text"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1725 gb-wc-hcc.php:3177
+msgid "Step 1 Button Text"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1730
+msgid "used in two step template only"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1736 gb-wc-hcc.php:3193
+msgid "Checkout Button Text"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1739 gb-wc-hcc.php:3196
+msgid "Place order"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1749 gb-wc-hcc.php:3553
+msgid "Custom CSS from this field will be applied only to the current page."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1759
+msgid ""
+"Custom JS from this field will be applied only to the current page. &#60;"
+"script&#62; tags are not required."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1765
+msgid "Custom Footer Text"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1769
+msgid ""
+"Any text or HTML from this field will be displayed under the \"Place order"
+"\" button of this form."
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1777 gb-wc-hcc.php:3858
+msgid "Update"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1864 gb-wc-hcc.php:4015 gb-wc-hcc.php:7401
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:141
+msgid "Are you sure?"
+msgstr ""
+
+#: gb-wc-hcc-embed-forms.php:1928 gb-wc-hcc.php:4480
+msgid "Updating..."
+msgstr ""
+
+#: gb-wc-hcc.php:119
+msgid "JSON parse error."
+msgstr ""
+
+#: gb-wc-hcc.php:223
+#, php-format
+msgid ""
+"<b>%s is not activated.</b> Please, activate it <a href=\"%s\">here</a> to "
+"receive regular updates, new features and support."
+msgstr ""
+
+#: gb-wc-hcc.php:255
+msgid "update is available"
+msgstr ""
+
+#: gb-wc-hcc.php:256
+msgid "Check out what's new"
+msgstr ""
+
+#: gb-wc-hcc.php:257
+msgid "or"
+msgstr ""
+
+#: gb-wc-hcc.php:257
+msgid "go to Plugins menu to update"
+msgstr ""
+
+#: gb-wc-hcc.php:354
+msgid "WooCommerce Handsome Checkout Pages installed"
+msgstr ""
+
+#: gb-wc-hcc.php:354
+msgid "You're ready to create new beautiful checkout pages!"
+msgstr ""
+
+#: gb-wc-hcc.php:375
+msgid "Duplicate created!"
+msgstr ""
+
+#: gb-wc-hcc.php:405
+msgid "Choose Type of Checkout"
+msgstr ""
+
+#: gb-wc-hcc.php:406
+msgid ""
+"The Handsome Checkout Pages extension allows to create two types of "
+"checkouts - Checkout Page and Embed Checkout Form (that you can insert into "
+"any page).<br /><br /> Let's go through the minimal setup and create your "
+"first page!"
+msgstr ""
+
+#: gb-wc-hcc.php:419
+msgid "Pick a Product"
+msgstr ""
+
+#: gb-wc-hcc.php:420
+msgid ""
+"With Handsome Checkout you can create product-specific checkout pages. "
+"Start typing in the product name to pick one.<br /><br />Also you can "
+"replace your default WooCommerce checkout with custom checkout page in "
+"Handsome Checkout menu > Settings."
+msgstr ""
+
+#: gb-wc-hcc.php:433
+msgid "Enter a Product Title"
+msgstr ""
+
+#: gb-wc-hcc.php:434
+msgid "Basically, it is a title of your checkout page."
+msgstr ""
+
+#: gb-wc-hcc.php:447
+msgid "Enter a Product Description"
+msgstr ""
+
+#: gb-wc-hcc.php:448
+msgid "It can be a short text describing your product."
+msgstr ""
+
+#: gb-wc-hcc.php:461
+msgid "Pick a Template"
+msgstr ""
+
+#: gb-wc-hcc.php:462
+msgid "Select one of the checkout page templates we have for you."
+msgstr ""
+
+#: gb-wc-hcc.php:475
+msgid "Select Checkout Fields"
+msgstr ""
+
+#: gb-wc-hcc.php:476
+msgid ""
+"Pick the fields you want to see on your checkout page. By default, you will "
+"have only \"Email\" field added."
+msgstr ""
+
+#: gb-wc-hcc.php:489
+msgid "Add Trust Points"
+msgstr ""
+
+#: gb-wc-hcc.php:490
+msgid ""
+"Click the \"fill in\" button to add the default trust points. Usually, "
+"trust points are used to talk about guarantee, privacy, security."
+msgstr ""
+
+#: gb-wc-hcc.php:503
+msgid "Save Your Checkout"
+msgstr ""
+
+#: gb-wc-hcc.php:504
+msgid ""
+"Click \"Update\" to save the changes and see your new Handsome Checkout :)"
+msgstr ""
+
+#: gb-wc-hcc.php:517
+msgid "Done!"
+msgstr ""
+
+#: gb-wc-hcc.php:518
+msgid ""
+"Congratulations! Your first Handsome Checkout is done. Click on the link "
+"above to see what you have created."
+msgstr ""
+
+#: gb-wc-hcc.php:621
+msgid "All Checkouts"
+msgstr ""
+
+#: gb-wc-hcc.php:622
+msgid "Edit Checkout"
+msgstr ""
+
+#: gb-wc-hcc.php:623
+msgid "View Checkout"
+msgstr ""
+
+#: gb-wc-hcc.php:624
+msgid "Update Checkout"
+msgstr ""
+
+#: gb-wc-hcc.php:625 gb-wc-hcc.php:627
+msgid "Create New Checkout"
+msgstr ""
+
+#: gb-wc-hcc.php:626
+msgid "New Checkout Name"
+msgstr ""
+
+#: gb-wc-hcc.php:628
+msgid "New Handsome Checkout"
+msgstr ""
+
+#: gb-wc-hcc.php:629
+msgid "Search Checkout Pages"
+msgstr ""
+
+#: gb-wc-hcc.php:630
+msgid "No checkout pages found"
+msgstr ""
+
+#: gb-wc-hcc.php:631
+msgid "No checkout pages found in trash"
+msgstr ""
+
+#: gb-wc-hcc.php:674 gb-wc-hcc.php:679
+msgid "Checkout updated."
+msgstr ""
+
+#: gb-wc-hcc.php:676
+msgid "Custom field updated."
+msgstr ""
+
+#: gb-wc-hcc.php:677
+msgid "Custom field deleted."
+msgstr ""
+
+#: gb-wc-hcc.php:680
+msgid "Checkout restored to revision"
+msgstr ""
+
+#: gb-wc-hcc.php:681
+msgid "Checkout published."
+msgstr ""
+
+#: gb-wc-hcc.php:683
+msgid "Checkout saved."
+msgstr ""
+
+#: gb-wc-hcc.php:684
+msgid "Checkout submitted."
+msgstr ""
+
+#: gb-wc-hcc.php:685
+msgid "Checkout scheduled."
+msgstr ""
+
+#: gb-wc-hcc.php:686
+msgid "Checkout draft updated."
+msgstr ""
+
+#: gb-wc-hcc.php:959
+msgid "Oops, your cart contents have changed."
+msgstr ""
+
+#: gb-wc-hcc.php:961
+msgid "Please, reload the page"
+msgstr ""
+
+#: gb-wc-hcc.php:964
+msgid ""
+"The page was reloaded, because your cart contents have changed. Please, "
+"complete your purchase below."
+msgstr ""
+
+#: gb-wc-hcc.php:1746
+msgid "Ingredients"
+msgstr ""
+
+#: gb-wc-hcc.php:1899
+msgid "Choose Checkout Mode"
+msgstr ""
+
+#: gb-wc-hcc.php:1914
+msgid "Page Settings"
+msgstr ""
+
+#: gb-wc-hcc.php:1929
+msgid "Embed Form Settings"
+msgstr ""
+
+#: gb-wc-hcc.php:1942
+msgid "Handsome Checkout Template"
+msgstr ""
+
+#: gb-wc-hcc.php:2570
+msgid "General"
+msgstr ""
+
+#: gb-wc-hcc.php:2572
+msgid "Advanced"
+msgstr ""
+
+#: gb-wc-hcc.php:2574
+msgid "Custom"
+msgstr ""
+
+#: gb-wc-hcc.php:2606
+msgid "Product Title"
+msgstr ""
+
+#: gb-wc-hcc.php:2614
+msgid "used instead of the page title"
+msgstr ""
+
+#: gb-wc-hcc.php:2622
+msgid "Product Description"
+msgstr ""
+
+#: gb-wc-hcc.php:2636
+msgid "Product Image"
+msgstr ""
+
+#: gb-wc-hcc.php:2637 gb-wc-hcc.php:3209 gb-wc-hcc.php:3337 gb-wc-hcc.php:3444
+#: gb-wc-hcc.php:3633 gb-wc-hcc.php:3775 gb-wc-hcc.php:3815
+msgid "Recommended image size"
+msgstr ""
+
+#: gb-wc-hcc.php:2662
+msgid "Select product image"
+msgstr ""
+
+#: gb-wc-hcc.php:2662 gb-wc-hcc.php:3234 gb-wc-hcc.php:3377 gb-wc-hcc.php:3413
+#: gb-wc-hcc.php:3479 gb-wc-hcc.php:3516 gb-wc-hcc.php:3658 gb-wc-hcc.php:3800
+#: gb-wc-hcc.php:3840
+msgid "Select"
+msgstr ""
+
+#: gb-wc-hcc.php:2662 gb-wc-hcc.php:3234 gb-wc-hcc.php:3377 gb-wc-hcc.php:3413
+#: gb-wc-hcc.php:3479 gb-wc-hcc.php:3516 gb-wc-hcc.php:3658 gb-wc-hcc.php:3800
+#: gb-wc-hcc.php:3840
+msgid "Select image"
+msgstr ""
+
+#: gb-wc-hcc.php:2666 gb-wc-hcc.php:3238 gb-wc-hcc.php:3381 gb-wc-hcc.php:3417
+#: gb-wc-hcc.php:3483 gb-wc-hcc.php:3520 gb-wc-hcc.php:3662 gb-wc-hcc.php:3804
+#: gb-wc-hcc.php:3844
+msgid "remove"
+msgstr ""
+
+#: gb-wc-hcc.php:2788
+msgid "Simple products"
+msgstr ""
+
+#: gb-wc-hcc.php:2802
+msgid "Def."
+msgstr ""
+
+#: gb-wc-hcc.php:2942
+msgid "Template"
+msgstr ""
+
+#: gb-wc-hcc.php:3012
+msgid "Header Color"
+msgstr ""
+
+#: gb-wc-hcc.php:3019
+msgid "Footer Color"
+msgstr ""
+
+#: gb-wc-hcc.php:3033
+msgid "Headline Color"
+msgstr ""
+
+#: gb-wc-hcc.php:3040
+msgid "Button Color"
+msgstr ""
+
+#: gb-wc-hcc.php:3110
+msgid "Guarantee Image"
+msgstr ""
+
+#: gb-wc-hcc.php:3165 gb-wc-hcc.php:7181
+msgid "Step 2: Payment Information"
+msgstr ""
+
+#: gb-wc-hcc.php:3185
+msgid "used in multistep templates only"
+msgstr ""
+
+#: gb-wc-hcc.php:3208
+msgid "Company Logo"
+msgstr ""
+
+#: gb-wc-hcc.php:3234
+msgid "Select company logo"
+msgstr ""
+
+#: gb-wc-hcc.php:3249
+msgid "Company Logo Alignment"
+msgstr ""
+
+#: gb-wc-hcc.php:3253
+msgid "left"
+msgstr ""
+
+#: gb-wc-hcc.php:3254
+msgid "center"
+msgstr ""
+
+#: gb-wc-hcc.php:3255
+msgid "right"
+msgstr ""
+
+#: gb-wc-hcc.php:3262
+msgid "Bullet Points Title"
+msgstr ""
+
+#: gb-wc-hcc.php:3277
+msgid "Bullet Points"
+msgstr ""
+
+#: gb-wc-hcc.php:3314
+msgid "+ add bullet"
+msgstr ""
+
+#: gb-wc-hcc.php:3321
+msgid "Testimonials Title"
+msgstr ""
+
+#: gb-wc-hcc.php:3336
+msgid "Testimonials"
+msgstr ""
+
+#: gb-wc-hcc.php:3377 gb-wc-hcc.php:3413
+msgid "Select testimonial image"
+msgstr ""
+
+#: gb-wc-hcc.php:3386 gb-wc-hcc.php:3422
+msgid "Testimonial title..."
+msgstr ""
+
+#: gb-wc-hcc.php:3387 gb-wc-hcc.php:3423
+msgid "Testimonial text..."
+msgstr ""
+
+#: gb-wc-hcc.php:3435
+msgid "+ add testimonial"
+msgstr ""
+
+#: gb-wc-hcc.php:3442
+msgid "Trust Points"
+msgstr ""
+
+#: gb-wc-hcc.php:3443
+msgid "fill in the default points"
+msgstr ""
+
+#: gb-wc-hcc.php:3479 gb-wc-hcc.php:3516
+msgid "Select trust point image"
+msgstr ""
+
+#: gb-wc-hcc.php:3488 gb-wc-hcc.php:3525
+msgid "Trust point title..."
+msgstr ""
+
+#: gb-wc-hcc.php:3489 gb-wc-hcc.php:3526
+msgid "Trust point text..."
+msgstr ""
+
+#: gb-wc-hcc.php:3538
+msgid "+ add trust point"
+msgstr ""
+
+#: gb-wc-hcc.php:3559
+msgid "Custom JS (Header)"
+msgstr ""
+
+#: gb-wc-hcc.php:3563
+msgid ""
+"Custom JS from this field will be applied only to the header of current "
+"page. &#60;script&#62; tags are not required."
+msgstr ""
+
+#: gb-wc-hcc.php:3569
+msgid "Custom JS (Footer)"
+msgstr ""
+
+#: gb-wc-hcc.php:3573
+msgid ""
+"Custom JS from this field will be applied only to the footer of current "
+"page. &#60;script&#62; tags are not required."
+msgstr ""
+
+#: gb-wc-hcc.php:3579
+msgid "Custom Footer HTML"
+msgstr ""
+
+#: gb-wc-hcc.php:3583
+msgid ""
+"Custom HTML from this field will be displayed in the footer of the current "
+"page."
+msgstr ""
+
+#: gb-wc-hcc.php:3589
+msgid "Support Email"
+msgstr ""
+
+#: gb-wc-hcc.php:3594
+msgid "used instead of the global support email"
+msgstr ""
+
+#: gb-wc-hcc.php:3604
+msgid "Main Headline"
+msgstr ""
+
+#: gb-wc-hcc.php:3618
+msgid "Sub Headline"
+msgstr ""
+
+#: gb-wc-hcc.php:3632
+msgid "Ingredients Image"
+msgstr ""
+
+#: gb-wc-hcc.php:3658
+msgid "Select ingredients image"
+msgstr ""
+
+#: gb-wc-hcc.php:3672
+msgid "Deals"
+msgstr ""
+
+#: gb-wc-hcc.php:3673
+msgid ""
+"Deals are used to offer different tiers of the same product right on the "
+"checkout page. For example: 1 bottle of Vitamins as Trial, 3 bottles as "
+"Good Deal, 3 bottles each 3 months subscription as Great Deal and 6 bottles "
+"as Best Deal."
+msgstr ""
+
+#: gb-wc-hcc.php:3690 gb-wc-hcc.php:3732
+msgid "Select deal type..."
+msgstr ""
+
+#: gb-wc-hcc.php:3691 gb-wc-hcc.php:3733
+msgid "Best deal"
+msgstr ""
+
+#: gb-wc-hcc.php:3692 gb-wc-hcc.php:3734
+msgid "Great deal"
+msgstr ""
+
+#: gb-wc-hcc.php:3693 gb-wc-hcc.php:3735
+msgid "Good deal"
+msgstr ""
+
+#: gb-wc-hcc.php:3694 gb-wc-hcc.php:3736
+msgid "Trial"
+msgstr ""
+
+#: gb-wc-hcc.php:3699 gb-wc-hcc.php:3741
+msgid "Enter deal title..."
+msgstr ""
+
+#: gb-wc-hcc.php:3703 gb-wc-hcc.php:3745
+msgid "Enter deal description..."
+msgstr ""
+
+#: gb-wc-hcc.php:3767
+msgid "+ add deal"
+msgstr ""
+
+#: gb-wc-hcc.php:3774
+msgid "Trust Seal Top Image"
+msgstr ""
+
+#: gb-wc-hcc.php:3800
+msgid "Select trust seal top image"
+msgstr ""
+
+#: gb-wc-hcc.php:3814
+msgid "Trust Seal Bottom Image"
+msgstr ""
+
+#: gb-wc-hcc.php:3840
+msgid "Select trust seal bottom image"
+msgstr ""
+
+#: gb-wc-hcc.php:4336
+msgid "100% Money Back Guarantee"
+msgstr ""
+
+#: gb-wc-hcc.php:4337
+msgid "If you're not completely satisfied, get your money back."
+msgstr ""
+
+#: gb-wc-hcc.php:4340
+msgid "We Protect Your Privacy"
+msgstr ""
+
+#: gb-wc-hcc.php:4341
+msgid "We will not share or trade online information that you provide us."
+msgstr ""
+
+#: gb-wc-hcc.php:4344
+msgid "Your Information is Secure"
+msgstr ""
+
+#: gb-wc-hcc.php:4345
+msgid "All personal information is encrypted and secure."
+msgstr ""
+
+#: gb-wc-hcc.php:4381
+msgid "You already have your trust points filled in."
+msgstr ""
+
+#: gb-wc-hcc.php:4577
+msgid "Select template"
+msgstr ""
+
+#: gb-wc-hcc.php:4579 gb-wc-hcc.php:4617
+msgid "none"
+msgstr ""
+
+#: gb-wc-hcc.php:4615
+msgid "Copy page settings from"
+msgstr ""
+
+#: gb-wc-hcc.php:5006
+msgid "All transactions are secure and encrypted"
+msgstr ""
+
+#: gb-wc-hcc.php:5007
+msgid "Payment method"
+msgstr ""
+
+#: gb-wc-hcc.php:5008 templates/gb-wc-hcc-template-6.php:948
+msgid "Show order summary"
+msgstr ""
+
+#: gb-wc-hcc.php:5009
+msgid "Hide order summary"
+msgstr ""
+
+#: gb-wc-hcc.php:5693
+msgid "Fields marked with * are mandatory"
+msgstr ""
+
+#: gb-wc-hcc.php:5710
+msgid "All fields are mandatory"
+msgstr ""
+
+#: gb-wc-hcc.php:5989 gb-wc-hcc.php:6004
+#, php-format
+msgid "%s today (%s)"
+msgstr ""
+
+#: gb-wc-hcc.php:6031 gb-wc-hcc.php:6045
+#: templates/gb-wc-hcc-template-6.php:1139
+msgid "Total"
+msgstr ""
+
+#: gb-wc-hcc.php:6776
+msgid "[Remove]"
+msgstr ""
+
+#: gb-wc-hcc.php:6780
+msgid "Free shipping coupon"
+msgstr ""
+
+#: gb-wc-hcc.php:6791
+msgid "Shipping"
+msgstr ""
+
+#: gb-wc-hcc.php:6800
+msgid "Tax"
+msgstr ""
+
+#: gb-wc-hcc.php:6876 templates/gb-wc-hcc-template-6.php:1079
+msgid "Scroll for more items"
+msgstr ""
+
+#: gb-wc-hcc.php:7097
+msgid "edit this page"
+msgstr ""
+
+#: gb-wc-hcc.php:7155
+msgid "Step 1: Billing &amp; Shipping"
+msgstr ""
+
+#: gb-wc-hcc.php:7164
+msgid "Step 1"
+msgstr ""
+
+#: gb-wc-hcc.php:7190 gb-wc-hcc.php:7213
+msgid "Use a different billing address"
+msgstr ""
+
+#: gb-wc-hcc.php:7217
+msgid "Shipping details"
+msgstr ""
+
+#: gb-wc-hcc.php:7225
+msgid "Expiry"
+msgstr ""
+
+#: gb-wc-hcc.php:7378
+msgid "Docs & FAQs"
+msgstr ""
+
+#: gb-wc-hcc.php:7379
+msgid "Changelog"
+msgstr ""
+
+#: gb-wc-hcc.php:7380
+msgid "Support"
+msgstr ""
+
+#: gb-wc-hcc.php:7401
+msgid "Duplicate"
+msgstr ""
+
+#: gb-wc-hcc.php:7466
+msgid "Copy"
+msgstr ""
+
+#: gb-wc-hcc.php:7557
+#, php-format
+msgid ""
+"%1$sHandsome Checkout is inactive.%2$s The %3$sWooCommerce plugin%4$s must "
+"be active for Handsome Checkout to work. Please %5$sinstall & activate "
+"WooCommerce &raquo;%6$s"
+msgstr ""
+
+#: gb-wc-hcc.php:7674
+msgid "Text style:"
+msgstr ""
+
+#: gb-wc-hcc.php:7680
+msgid "default"
+msgstr ""
+
+#: gb-wc-hcc.php:7691
+msgid "size"
+msgstr ""
+
+#: gb-wc-hcc.php:7713
+msgid "Button style:"
+msgstr ""
+
+#: gb-wc-hcc.php:7722
+msgid "pick icon..."
+msgstr ""
+
+#: gb-wc-hcc.php:7738
+msgid "width"
+msgstr ""
+
+#: gb-wc-hcc.php:7740
+msgid "height"
+msgstr ""
+
+#: modules/ac/abandoned_carts.php:25
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:15
+msgid "Abandoned Carts"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:20
+msgid "Your Abandoned Carts"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:21
+msgid "Connect Zapier"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:55
+msgid "How It Works?"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:57
+msgid "A user types in their email on your checkout form."
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:58
+msgid ""
+"As soon as the user clicks anywhere outside the email field, the data is "
+"captured and held for 20 minutes."
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:59
+msgid "If the checkout is completed, the postponed data is not sent."
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:60
+msgid ""
+"If checkout is not completed in 20 min, the data is sent to the integration "
+"(Zapier)."
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:62
+msgid "Total carts catched:"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:69
+msgid "Export CSV"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:70
+msgid "Clear table"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:77
+msgid "Email"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:78
+msgid "Products"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:79
+msgid "Date"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:105
+msgid "Product not found"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:120
+msgid ""
+"Oops, looks like you don't have any abandoned cart sessions recorded yet."
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:201
+msgid "Integrate"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:208
+msgid "Send to Zapier"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:216
+msgid "Webhook URL"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:227
+msgid ""
+"You should insert webhook URL from Zapier here to finish configuration."
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:236
+msgid "Data format for Zapier"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:238
+msgid "We will send abandoned cart data to Zapier in this format:"
+msgstr ""
+
+#: modules/ac/admin/gb-wc-hcc-abandoned-carts.php:261
+msgid "Save changes"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-2.php:1124
+#: templates/gb-wc-hcc-template.php:952
+msgid "Copyright &copy;"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-2.php:1124
+#: templates/gb-wc-hcc-template-3.php:918
+#: templates/gb-wc-hcc-template-7.php:384 templates/gb-wc-hcc-template.php:952
+msgid "All Rights Reserved"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-2.php:1126
+#: templates/gb-wc-hcc-template-4.php:907
+#: templates/gb-wc-hcc-template-4.php:1033
+#: templates/gb-wc-hcc-template.php:717
+msgid "Need Help?"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-3.php:775
+#: templates/gb-wc-hcc-template-7.php:231
+msgid "Payment secured by 256-bit encryption"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-3.php:781
+#: templates/gb-wc-hcc-template-3.php:876
+#: templates/gb-wc-hcc-template-7.php:339
+msgid "Need Help? Contact Support"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-3.php:783
+#: templates/gb-wc-hcc-template-3.php:878
+#: templates/gb-wc-hcc-template-7.php:341
+msgid "Email:"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-3.php:792
+#: templates/gb-wc-hcc-template-3.php:887
+#: templates/gb-wc-hcc-template-7.php:350
+msgid "Phone:"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-4.php:915
+#: templates/gb-wc-hcc-template-4.php:1041
+msgid "Call Us @"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-4.php:922
+#: templates/gb-wc-hcc-template-4.php:1048
+msgid "Email Us Anytime:"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-5.php:749
+msgid "Need help? Email"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-5.php:798
+#: templates/gb-wc-hcc-template-6.php:1264
+msgid "Billing details"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-5.php:828
+#: templates/gb-wc-hcc-template-6.php:1280
+msgid "Your order"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-6.php:1097
+#: templates/gb-wc-hcc-template-6.php:1098
+msgid "Coupon code"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-6.php:1102
+msgid "Apply coupon"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-6.php:1127
+msgid "Subtotal"
+msgstr ""
+
+#: templates/gb-wc-hcc-template-6.php:1351
+msgid "Return to shop"
+msgstr ""

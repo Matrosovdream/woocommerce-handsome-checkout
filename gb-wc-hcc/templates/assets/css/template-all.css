@@ -1,0 +1,13 @@
+/* Amazon Payments Advanced */
+
+#amazon_addressbook_widget,
+#amazon_wallet_widget,
+#amazon_consent_widget {
+	height: 230px;
+	width: 98%;
+	margin-bottom: 15px;
+}
+
+div#amazon_customer_details + div#customer_details {
+	display: none;
+}

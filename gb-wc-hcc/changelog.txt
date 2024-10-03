@@ -1,0 +1,204 @@
+- update lang
+- upd WP&WC compatibility tags
+
+1.6.0 -
+- new Template #7 Vitamin (clean HTML and CSS, new section Deals, additional Headlines, space for Trust Badges at the top and bottom)
+- feature: added another 2 alternative URL options, short ones, /checkout-hs/ and /checkouts/
+- feature: page settings split into tabs
+- feature: Custom tab for Template Specific options
+- feature: independent text styling for each of the titles on page (font family, size, color, bold, italic, underlined)
+- feature: checkout button styling (FontAwesome icon, icon color, font family, size, color, bold, italic, underlined)
+- feature: (variations & quantity) select one of multiple products with radio button
+- feature: optionally disable Abandoned Carts in settings
+- feature: added a set of tooltips that helps to create a checkout page after the installation
+- feature: (Embed Forms) display embed forms in iframe mode optinally, if there are any conflicts in default mode
+- feature: (Fields) optionally toggle Billing Address 2 and Shipping Address 2 fields on and off for any Handsome Checkout page
+- feature: custom support email field for each page that overwrites the global support email
+- feature: products in 'Select Product' field are now sortable via drag and drop
+- feature: replace order-review (order-pay) page default look with Multi Product template
+- feature: (Multi Product) added a little extendability, which allows to add a custom checkout field validation function easily
+- tweak: (Fields Validator on step 1) fixed validation of account_username and account_password fields if checkbox Create Account is checked
+- tweak: improved how total price is displayed in the order total box, when subscription is the target product (coupons, trial period, sign-up fee)
+- tweak: improved the style of .woocommerce-message boxes like 'coupon applied'
+- tweak: (Marketing Pro & Minimalist) field alignment improved
+- tweak: check if WooCommerce is enabled, before plugin init
+- tweak: updated language text domain name, changed _ to -
+- tweak: added a Wordpress check to prevent possible direct access data leaks
+- tweak: missing $options in a 'custom_js' call
+- tweak: (Abandoned Carts) fixed error in the list of abandoned carts, which happened if any existing product was deleted
+- tweak: (Testimonials) fixed error, where the [testimonial_image] template tag was not replaced by the empty string, when the 'full' size image attachment is not available
+- tweak: (Embed Forms) "display as pop-up" checkbox condition was not being saved properly
+- tweak: (Template 5,6) 'Product Selection' string was not wrapped into translation file
+- tweak: finally, each field is checked for emptiness on step 1 of all multistep templates
+- tweak: allow to pick variations for Order Bumps, not just simple products or parent products
+- tweak: increased the amount of Variations & Qty options from 10 to 99
+- tweak: hide the 'not-activated' admin notice when the key is submitted to remove the confusion
+- tweak: (Multi Product) fixed labels positioning for one-country stores and other fixed fields
+- tweak: (Multi Product) display variation product images instead of default product image on checkout page
+- tweak: (WPML) additional check to ignore pay-for-order page when global replace checkout page option is enabled
+- minor tweaks
+
+1.5.3 - 15.12.18
+- compatibility update
+- tweak: (variations & qty) improved CSS for better IE compatibility
+- tweak: (abandoned carts) added a check, that prevents warning errors for the updated data structure
+- tweak: (variations & qty) fixed the processing of items in cart for simple_variations mode
+- tweak: redirect to our plugins only if update is available
+- tweak: fixed fatal error if WC()->cart is undefined on 'wp' hook
+- minor tweaks
+
+1.5.2 - 08.11.18
+- tweak: better handling of simple products with attributes (like variable products)
+- tweak: (Multi Product) fix 'back to previous step' link styles - position
+- tweak: remove the abandoned carts if the status is switched to 'processing', not only 'completed'
+- tweak: added a first param before $force to 'gb_hcc_add_product_to_cart' to handle the do_action_ref_array properly
+- tweak: fixed issue that caused 'Sorry, your session has expired' error on cached Handsome Checkout pages
+- minor clean up
+
+1.5.1 - 27.10.18
+- tweak: fixed the issue where the 'gb_hcc_filter_default_texts' was called earlier than 'init' hook and caused fatal error, because functions of embed were not initialized yet
+- tweak: (Abandoned Carts) save multiple abandoned cart entries attached to single email
+- tweak: (Embed Forms) changed regexp to get right shorcode_id from post_content, now images and videos are better handled by Embed Form shortcode
+
+1.5.0 - 19.10.18
+- feature: Abandoned Carts (recover abandoned carts in your store via Zapier or by exporting csv file)
+- feature: Variations & Quantity is now available for Embed Forms
+- feature: any of your Embed Forms can now be transformed into pop-up checkout form with a single checkbox
+- feature: (Embed Forms) link that opens up the edit form page, and is only visible to users with admin capabilities
+- feature: add any Custom JS to the header section of your checkout pages
+- minor tweaks
+
+1.4.1 - 20.07.18
+- tweak: fix the gettext loop in the function, that replaces the default WooCommerce texts
+- tweak: fixed the wrong 'update_order_review_nonce' and empty cart issues on cached pages, which were causing the 403 error for wc-ajax calls
+- tweak: fixed validation feature to check variation_id's if variable product is a target product
+- tweak: added link to the development changelog in the plugin meta links
+- tweak: fixed color of text in WooCommerce notice messages on checkout to be black
+- tweak: (SamCart Original) fixed the header 'need help' text position on desktop and mobile
+
+1.4.0 - 09.07.18
+- feature: Variations & Quantity - allow customers to select quantity and variable options right on your Handsome Checkout pages
+- feature: Embed Forms - insert the optimized customizable checkout form in any landing/sales/custom page
+- feature: validate cart contents before processing the payment to be sure they are not coming from some other HC page
+- feature: new filters to preserve selected styles and scripts from enforced deregistration by ids
+- feature: added classes like 'hcc-t5-step1' to the body to control page contents
+- feature: special headers to prevent caching HC pages and Embed Forms by caching plugins or services
+- feature: (filter) optionally disable the reversion of WC templates used by Handsome Checkout to default ones
+- tweak: improved support for WooCommerce customizable endpoints, do not redirect to replaced checkout from customized endpoint url
+- tweak: (Multi Product) added the native WooCommerce filters to the order details list to improve compatibility with 3rd party plugins (ex. WooCommerce Product Bundles)
+- tweak: css fix for the submit button on the login form in all templates
+- tweak: added 'is_handsome_checkout_url()' checker to optimize the code
+- tweak: changed the link-back text in multistep templates
+- tweak: do not replace the checkout page with HC, when on /order-pay/ after redirection to gateway site
+- tweak: defined is_checkout=1 in wc_checkout_params for proper JS init on checkout
+- tweak: check if preset product exists before adding it to cart
+
+1.3.1 - 24.05.18
+- compatibility update for WooCommerce 3.4 (includes the improved styles for new "Terms & Conditions" checkbox and "Privacy policy" box)
+- feature: optimized Order Bump (2x faster and not resetting the payment forms)
+- feature: added action hooks to be called when order bump item is removed or added
+- tweak: improved the order bump add to cart processing (addresses duplicate order bump items added issue + target product equals order bump product remove from cart issue)
+- tweak: fixed Fatal error when global ['wp_head'] is not an object, but an array instead (thanks Mark)
+- tweak: (Multi Product) fixed the issue, when long product names break the pricing in the sidebar
+- tweak: changes to allow WooCommerce Checkout Field Editor Pro to modify the field's placeholder
+- code clean up
+
+1.3.0 - 23.04.18
+- new template (Multi Product)
+- feature: swap billing address & shipping address fields to capture shipping first
+- feature: (Multi Product) added preloader animation that shows up when payment is being processed, replaces the default WooCommerce checkout preloader
+- feature: the page options not applicable for the current template are now hidden automatically
+- tweak: fixed the 'Apply coupon' button styling
+- tweak: improved handling of wc-ajax endpoint urls
+- tweak: improved checkout processing when the page url has a '?query=string' in it, no more disabled fields being required
+- tweak: (Two Step) missing upsell container for styled upsell pages
+- tweak: (Two Step) testimonials and bullets not displaying properly
+- tweak: Billing Address required error fix + Order Bump box hiding fix
+- tweak: is_checkout() could be not "/checkout/" URL always
+- tweak: order_button_text filter priority was increased from 99 to 9999 to fix overrides from other plugins
+- tweak: fixed empty space if no testimonial image is specified in Samcart Original & SamCart Blue templates
+- tweak: gb_hcc_is_checkout_too should return FALSE in admin
+- tweak: (SamCart Blue) fixed payment method radio buttons in Firefox
+- tweak: if "replace default checkout page" is enabled, prevent redirect from all Handsome Checkout pages to this selected page
+- tweak: (Marketing Pro) added support for button[type="submit"] to display the #place_order button properly
+- tweak: billing_country is now always present on page because it's required, but when the billing address is disabled, it's hidden by CSS
+- tweak: (Two Step) fixed custom color for Next Step button
+- tweak: exclude CSS files added by Stripe and PayPal gateway plugins from the removal list
+- tweak: added notice to the Billing address checkbox - it should only be disabled for the virtual products
+- tweak: message in the login form is modified according to the Step 1 title text, the 'Billing & Shipping' is replaced by the custom Step 1 title to remove confusion
+- tweak: changed 'single_template' to 'template_include' hook to improve compatibility with themes, that use custom templates too, like OptimizePress (thanks to our support team member Mark)
+- tweak: improved the look for the forms of the new WooCommerce Stripe Gateway 4.0+
+- tweak: external url attributes are now ignored in our custom wc-ajax endpoint url
+- updated localization
+- minor CSS tweaks
+
+1.2.0 - 05.11.17
+- new template (Two Step)
+- support for WooCommerce 3.2+ (disappearing order bump and price boxes because of changed wc-ajax endpoint url + broken select2 dropdowns)
+- feature: duplicate Handsome Checkout pages with a single click (links in the pages list)
+- feature: optinally put the Email field first
+- feature: optionally enable First Name and Last Name fields even if Billing Address is disabled
+- feature: logo alignment
+- feature: add custom HTML to the footer of any checkout page (ex: for privacy policy links)
+- feature: optionally turn on the alternative URL base /checkout-handsome/ to bypass the caching restrictions
+- feature: autoremoval of all the inline CSS added to "wp_head" by 3rd party themes or plugins
+- feature: customize Step 1 & Step 2 page titles as you wish
+- feature: floating "Update" button on the edit screen
+- tweak: Order Notes box is improved in all templates
+- tweak: Terms & Conditions checkbox is improved in all templates
+- tweak: light grey background for image fields on the edit page (to make white logos visible)
+- tweak: no more pages erased via Quick Edit
+- tweak: protection from multiple clicks on the Order Bump checkbox, when the AJAX request has not been finished yet
+- tweak: improved how the plugin updates & update notifications are handled
+- tweak: subscription pricing is displayed properly now in the "order total" box, html code optimized
+- tweak: handle the failed update server response properly, if it returns WP_Error
+- tweak: now it is possible to unlink the Handsome template from simple page
+- tweak: Handsome Checkout Template box will be displayed only if One Click Upsells is installed
+- tweak: set payment gateway's icons to max-height of 50px (ex. default PayPal)
+- tweak: added recommended image size note to all the image fields
+- tweak: added noindex to the checkout pages
+- tweak: all checkout fields have placeholders now (filled with the label values) 
+- tweak: hcc_admin_bar fixed
+- fix: do not redirect back to Handsome Checkout page after the purchase throught the replaced c/o page
+- admin-side usability improvements and small tweaks
+
+1.1.0 - 07.08.17
+- 2 new templates
+- feature: customizable Order Bump box
+- feature: display order details (including multiple items, taxes, shipping and discounts)
+- feature: hide the order total element optionally
+- feature: replace the default WooCommerce checkout page with selected Handsome Checkout page in plugin settings
+- feature: added localization support and .pot file, now you can translate all the texts to your language
+- feature: customize all the "privacy", "security", "guarantee" texts easily with the new "Trust Points" setting
+- feature: add custom javascript to the selected pages or to all pages globally
+- feature: additional Product title field that displays on page instead of Page title (Main title)
+- feature: "support phone" option in the plugin settings, it is displayed on the template page if supported by template
+- feature: disable and hide the "Coupon" info box and form optionally
+- tweak: fixed the checkbox, that is switching "Shipping Address" on and off, now it's displayed or hid properly
+- tweak: no more "Page not found" error on the first plugin activation
+- tweak: replaced file_get_contents with wp_remote_get to get update details from the server with no issues on any hosting
+- tweak: changed some actions and filters priorities from 999 to 9999 to prevent overriding by other plugins and themes
+- tweak: additional <div class="clear"></div> rows after billing and shipping fields to prevent overflow
+- tweak: subscription price displayed properly with sign-up fee and trial
+- tweak: removed theme's Additional CSS from the checkout pages, it was hooked to wp_head (wp_custom_css_cb)
+- tweak: a lot of minor CSS changes in templates to make them look better on desktops & mobiles
+- bugfix: fixed the issue with how testimonials and bullets were numbered on the edit page in admin dashboard
+- bugfix: if testimonial had no image, then placeholder [testimonial_image] was displayed
+
+1.0.1 - 23.04.17
+- tweak: compatibility updates for WooCommerce 3.0+ (new Select2 lib, new way of getting Order, Product attributes)
+- tweak: current theme CSS was overwriting Handsome Checkout pages styles, added filter to deregister current theme css files
+- tweak: custom html was hooked to and displayed in "wp_footer", wrapped it into special hidden div
+- tweak: no general font-size for ".grid-containter" was set, which made all subheaders with "em" sizing look small and ugly, set it to 14px
+- tweak: display "Create account" checkbox and fields properly
+- tweak: better alignment for all fields and payment methods
+- tweak: removed "Stripe & SSL" security image (accidentaly loaded from our test environment)
+- tweak: revert customized WooCommerce templates back to default only on Handsome Checkout pages
+- tweak: if customer already has an account, allow him to login right on the page, display default "have an account?" notice and styled login form
+- tweak: disabled gateway filters (all WooCommerce gateways are allowed now)
+- feature: for better compatibility default WordPress admin bar replaced with simple single "edit this page" link
+- feature: add any custom CSS in plugin Settings to all the pages globally (new setting)
+- feature: add any custom CSS to each page individually (new field)
+
+1.0.0 - 01.10.16
+ - initial release (basic functions, 2 templates, 1 Click Upsells support)
