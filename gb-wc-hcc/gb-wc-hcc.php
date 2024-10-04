@@ -186,7 +186,10 @@ function gb_hcc_inject_update( $plugins )
 
             $plugin = (object) $plugin;
 
-            $plugins->response[ GB_HCC_FILE ] = $plugin;
+            if( isset( $plugins->response ) ) {
+                $plugins->response[ GB_HCC_FILE ] = $plugin;
+            }
+            
         }
     }
 
