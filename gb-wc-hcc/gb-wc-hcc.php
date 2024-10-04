@@ -37,6 +37,13 @@ define( 'GB_HCC_FILE', 'gb-wc-hcc/gb-wc-hcc.php' );
 
 require_once plugin_dir_path( __FILE__ ) . 'includes/gb-wc-hcc-dependencies.php';
 
+// Declare WooCommerce HPOS (High-performance order storage)
+add_action( 'before_woocommerce_init', function() {
+	if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+		\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+	}
+} );
+
 /**
  * Check if WooCommerce is active, and 
  * if it isn't, disable the plugin.
@@ -189,7 +196,7 @@ function gb_hcc_inject_update( $plugins )
             if( isset( $plugins->response ) ) {
                 $plugins->response[ GB_HCC_FILE ] = $plugin;
             }
-            
+
         }
     }
 
@@ -7150,11 +7157,11 @@ function gb_hcc_checkout_field_save( $order_id )
     if( !empty( $_POST['gb_hcc_referer'] ) && !empty( $_SERVER['HTTP_REFERER'] ) )
     {
         // save hcc referer url
-
-        update_post_meta( $order_id, '_hcc_referer', sanitize_text_field( $_POST['gb_hcc_referer'] ) );
+        $order = wc_get_order( $order_id );
+        $order->update_meta_data( '_hcc_referer', sanitize_text_field( $_POST['gb_hcc_referer'] ) );
+        $order->save();
 
         // optionally set shipping address first, switch billing <-> shipping
-
         $fields_shipping_first = FALSE;
 
         $_SERVER['HTTP_REFERER'] = esc_url_raw( $_SERVER['HTTP_REFERER'] );
